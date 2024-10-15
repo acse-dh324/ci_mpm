@@ -1,9 +1,10 @@
 from .functions1 import *  # noqa
+from .constants import *
 
 try:
     from importlib.metadata import version, PackageNotFoundError  # Python 3.8+
 except ImportError:  # For Python < 3.8
-    from importlib_metadata import version, PackageNotFoundError
+    from importlib_metadata import version, PackageNotFoundError  # type: ignore
 
 try:
     __version__ = version(__name__)
