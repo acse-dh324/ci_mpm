@@ -4,7 +4,7 @@ from simple_functions import pi
 
 
 class TestPi(object):
-    '''Class to test our constants are computed correctly'''
+    '''Class to test our constants are computed correctly t'''
 
     def test_pi(self):
         '''Test computation of pi'''
